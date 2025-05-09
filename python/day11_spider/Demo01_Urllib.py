@@ -39,7 +39,7 @@ print(response)  # <http.client.HTTPResponse object at 0x0000019A9418FDC0>
 # 505
 # 504
 
-# 5、getUrl() 获取url
+# 5、geturl() 获取url
 # print(response.geturl())   # https://www.baidu.com/
 
 
