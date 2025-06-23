@@ -1,0 +1,25 @@
+yarn
+1.节点:
+resource manager：这个资源的管理
+node manager: 单个节点的管理
+application master: 单个运行的管理
+container: 独立的服务器
+
+2 每个节点的作用:
+resource manager: 
+(1) 处理客户端的请求
+(2) 监控NM
+(3) 启动或者监控application master
+(4) 资源的分配和调度
+
+node manager:
+(1) 管理单个节点上的资源
+(2) 处理来自RM的命令
+(3) 处理来自APP master的命令
+
+application master:
+(1) 为应用程序申请资源并分配给内部的任务
+(2) 任务的监控与容错
+
+container:
+容器是yarn中的资源抽象,它主要封装了某个节点上的多维度资源:内存、cpu、磁盘、网络等
