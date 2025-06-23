@@ -1,0 +1,2718 @@
+{
+    "root": {
+        "data": {
+            "id": "d975yd83q8g0",
+            "created": 1744715294325,
+            "text": "python",
+            "color": "white",
+            "background": "#73a1bf",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d9762bklx480",
+                    "created": 1744715604185,
+                    "text": "python介绍",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d9767oblzs80",
+                            "created": 1744716023760,
+                            "text": "python创建",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d97691p19ts0",
+                                    "created": 1744716131234,
+                                    "text": "龟叔"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d9767tzqxzs0",
+                            "created": 1744716036103,
+                            "text": "使用原因",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d976co6usuw0",
+                                    "created": 1744716415293,
+                                    "text": "简单、易懂、轻量化"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d976dhliink0",
+                            "created": 1744716479306,
+                            "text": "使用场景"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d976dplw5bk0",
+                                    "created": 1744716496743,
+                                    "text": "数据分析"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d976duh2qtk0",
+                                    "created": 1744716507336,
+                                    "text": "人工智能"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d976dx70xuo0",
+                                    "created": 1744716513258,
+                                    "text": "大数据"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d976elx96400",
+                            "created": 1744716567087,
+                            "text": "python安装"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d976fefmt400",
+                                    "created": 1744716629148,
+                                    "text": "python 3.1"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d976fjgeodc0",
+                                    "created": 1744716640079,
+                                    "text": "Pycharm"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d976g16zbxk0",
+                                            "created": 1744716678691,
+                                            "text": "快捷键"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d976hiq2puo0",
+                                                    "created": 1744716795215,
+                                                    "text": "ctrl x 剪切删除"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d976hw3f4680",
+                                                    "created": 1744716824320,
+                                                    "text": "ctrl d 复制本行到下一行"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d976ilp6g7k0",
+                                                    "created": 1744716880056,
+                                                    "text": "ctrl shift 上下 上下移动本行代码"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d976n5ubti80",
+                                                    "created": 1744717237359,
+                                                    "text": "crtl / 整段代码注释"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d976hf9ra400",
+                                            "created": 1744716787698,
+                                            "text": "插件"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d976ft9ogu00",
+                                    "created": 1744716661440,
+                                    "text": "conda"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d976fy0pfj40",
+                                    "created": 1744716671781,
+                                    "text": "vscode"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d9762j1829c0",
+                    "created": 1744715620427,
+                    "text": "python基本语法",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d976k44z05s0",
+                            "created": 1744716998557,
+                            "text": "字面量&注释"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d976lvj63140",
+                                    "created": 1744717136552,
+                                    "text": "字面量"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d976pjyoxg00",
+                                            "created": 1744717424826,
+                                            "text": "字面量的定义"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d976q706v1k0",
+                                                    "created": 1744717474983,
+                                                    "text": "在代码中被写下来的固定值"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d976srcf3y00",
+                                                            "created": 1744717675986,
+                                                            "text": "数字"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "d976wjogp1c0",
+                                                                    "created": 1744717972757,
+                                                                    "text": "整数（int)"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "d976x1850eg0",
+                                                                    "created": 1744718010952,
+                                                                    "text": "浮点数（float)"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "d976x9hk3m00",
+                                                                    "created": 1744718028936,
+                                                                    "text": "布尔（bool)"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "d976xn4tpcw0",
+                                                                            "created": 1744718058641,
+                                                                            "text": "判断真假（T/F）"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "d976y56k3y80",
+                                                                    "created": 1744718097928,
+                                                                    "text": "复数（complex)"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d976tujji940",
+                                                            "created": 1744717761312,
+                                                            "text": "字符串(str)"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "d976ygm330o0",
+                                                                    "created": 1744718122811,
+                                                                    "text": "由任意数字的字符组成（描述文本）"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d976u443ck00",
+                                                            "created": 1744717782145,
+                                                            "text": "列表（list)"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "d976z44qdk00",
+                                                                    "created": 1744718174005,
+                                                                    "text": "有序可变序列"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "d976zrzje540",
+                                                                            "created": 1744718225933,
+                                                                            "text": "一维列表（数组）"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "d976zyiff1c0",
+                                                                            "created": 1744718240136,
+                                                                            "text": "二维列表（矩阵）"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d976u79c2bk0",
+                                                            "created": 1744717788993,
+                                                            "text": "元组（tuple)"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "d9770j1nt2w0",
+                                                                    "created": 1744718284835,
+                                                                    "text": "有序不可变序列"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d976urqj3i00",
+                                                            "created": 1744717833569,
+                                                            "text": "集合（set)"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "d9770tbrcs80",
+                                                                    "created": 1744718307213,
+                                                                    "text": "无序不重复集合"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d976us8nw4w0",
+                                                            "created": 1744717834664,
+                                                            "text": "字典（dict)"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "d977141uar40",
+                                                                    "created": 1744718330558,
+                                                                    "text": "无序key-value(键值对）的集合"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d976m9ly4go0",
+                                    "created": 1744717167195,
+                                    "text": "注释"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d97777l6lzc0",
+                                            "created": 1744718808443,
+                                            "text": "使用",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d977212uaq00",
+                                                    "created": 1744718402453,
+                                                    "text": "# 单行注释",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d9772c4poww0",
+                                                    "created": 1744718426510,
+                                                    "text": "\"\"\" 多行注释\"\"\"",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d9772pv6vp40",
+                                                    "created": 1744718456409,
+                                                    "text": "选中多行代码 ctrl / 快捷多行注释"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9776tul11c0",
+                                            "created": 1744718778537,
+                                            "text": "定义"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9776z333h40",
+                                                    "created": 1744718789935,
+                                                    "text": "解释说明程序的文字"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d976klzutpc0",
+                            "created": 1744717037429,
+                            "text": "变量&数据类型"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d9779zj782w0",
+                                    "created": 1744719026001,
+                                    "text": "变量"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d977a3emqm80",
+                                            "created": 1744719034432,
+                                            "text": "定义"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d977enwjxm80",
+                                                    "created": 1744719392508,
+                                                    "text": "在程序运行时，能储存计算结果或能表示值的抽象概念"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d977a7dei5c0",
+                                            "created": 1744719043065,
+                                            "text": "格式"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d977fenojwg0",
+                                                    "created": 1744719450745,
+                                                    "text": "变量名 = 变量值（x=5)"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d977aubria00",
+                                            "created": 1744719093032,
+                                            "text": "名称"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d977ftyot000",
+                                                    "created": 1744719484062,
+                                                    "text": "变量自身（x就是x)"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d977aiwyn6o0",
+                                            "created": 1744719068192,
+                                            "text": "值"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d977g8oqjwo0",
+                                                    "created": 1744719516112,
+                                                    "text": "等号右边的值（5）"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d977gxnr91c0",
+                                    "created": 1744719570473,
+                                    "text": "数据类型"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d977h4a6r8g0",
+                                            "created": 1744719584889,
+                                            "text": "字符串（str)"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d977hc1v5k00",
+                                            "created": 1744719601801,
+                                            "text": "整数（int)"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d977hhdpp600",
+                                            "created": 1744719613401,
+                                            "text": "浮点数（float)"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d977imewjl40",
+                                            "created": 1744719702721,
+                                            "text": "type（）查看数据类型"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d976kuchcfc0",
+                            "created": 1744717055607,
+                            "text": "标识符&运算符"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d977nsgu0ko0",
+                                    "created": 1744720107719,
+                                    "text": "标识符"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d977p1wfhy80",
+                                            "created": 1744720206617,
+                                            "text": "定义"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d977pcbsvfk0",
+                                                    "created": 1744720229315,
+                                                    "text": "用户在编程时给变量、类、函数等命名的名字"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d977p4z5qao0",
+                                            "created": 1744720213313,
+                                            "text": "规则"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d977wiiitds0",
+                                                    "created": 1744720791331,
+                                                    "text": "大小写敏感"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d977wo24rc00",
+                                                    "created": 1744720803401,
+                                                    "text": "不可以使用关键字"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d977wvuril40",
+                                                    "created": 1744720820369,
+                                                    "text": "只允许英文、下划线、数字（不能在开头使用）、中文（不推荐）"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d977p8f9jg00",
+                                            "created": 1744720220817,
+                                            "text": "规范"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d977z6d8d4w0",
+                                                    "created": 1744720999982,
+                                                    "text": "字母全小写"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d977zalkbuw0",
+                                                    "created": 1744721009193,
+                                                    "text": "见名知意"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d9780olb3fs0",
+                                                    "created": 1744721118017,
+                                                    "text": "多个单词组合时使用下划线来连接进行命名"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d977nxdhyrs0",
+                                    "created": 1744720118401,
+                                    "text": "运算符"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9783nizd200",
+                                            "created": 1744721350792,
+                                            "text": "算数运算符"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9783rx99k80",
+                                            "created": 1744721360362,
+                                            "text": "赋值运算符"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9783wwwhxk0",
+                                            "created": 1744721371225,
+                                            "text": "比较运算符"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9789au57vc0",
+                                            "created": 1744721793354,
+                                            "text": "逻辑运算符"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9789p89sgw0",
+                                            "created": 1744721824683,
+                                            "text": "位运算符"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d976lm5rlpc0",
+                            "created": 1744717116151,
+                            "text": "字符串"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d978aqawqu00",
+                                    "created": 1744721905383,
+                                    "text": "定义方法",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d977j9bqbcg0",
+                                            "created": 1744719752595,
+                                            "text": "‘单引号定义’"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d977jjp78s00",
+                                            "created": 1744719775177,
+                                            "text": "“双引号定义”"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d977jpenzsw0",
+                                            "created": 1744719787601,
+                                            "text": "\"\"\"\n三引导定义\n\"\"\""
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d977kdlw0000",
+                                            "created": 1744719840281,
+                                            "text": "嵌套定义"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d978b11r7qo0",
+                                                    "created": 1744721928774,
+                                                    "text": "单引号中添加双引号"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d978b925ceg0",
+                                                    "created": 1744721946212,
+                                                    "text": "双引号中添加单引号"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d978bfw70zc0",
+                                                    "created": 1744721961090,
+                                                    "text": "引号中添加转义符号"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d978cqwii680",
+                                    "created": 1744722063418,
+                                    "text": "格式化方法"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d978cu2k9pc0",
+                                            "created": 1744722070314,
+                                            "text": "(\"%.2f\")%(\"float\")"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d978dhzv98g0",
+                                            "created": 1744722122394,
+                                            "text": "f\"{folat:.2f}\""
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d978dpidwhs0",
+                                            "created": 1744722138751,
+                                            "text": "\"{0:.2f}\".format(3.14)"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d98ssoy83ww0",
+                            "created": 1744881295149,
+                            "text": "数据输入"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d98sstr48l40",
+                                    "created": 1744881305603,
+                                    "text": "x = input(\"str\")"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d9762knkwg00",
+                    "created": 1744715623955,
+                    "text": "判断语句",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d98stn2x1bs0",
+                            "created": 1744881369443,
+                            "text": "if elif else"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d9764o096so0",
+                    "created": 1744715787981,
+                    "text": "循环语句",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d98sv8h7i1s0",
+                            "created": 1744881494384,
+                            "text": "while "
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d98sv940za80",
+                            "created": 1744881495764,
+                            "text": "for"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d98t06yhcv40",
+                                    "created": 1744881882896,
+                                    "text": "range(num1,num2,step)"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d9765btnf9s0",
+                    "created": 1744715839824,
+                    "text": "函数",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d99rpsiqz8g0",
+                            "created": 1744979806675,
+                            "text": "定义"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d99rpv77csw0",
+                            "created": 1744979812507,
+                            "text": "使用原因"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d99rpx9vhug0",
+                            "created": 1744979817022,
+                            "text": "语法"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d99rpz8uaog0",
+                            "created": 1744979821313,
+                            "text": "嵌套"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d9d4673hi880",
+                            "created": 1745319625419,
+                            "text": "函数的进阶"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d9d470wj6qg0",
+                                    "created": 1745319690302,
+                                    "text": "参数"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9d475wue4o0",
+                                            "created": 1745319701205,
+                                            "text": "位置参数(必选参数)"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9d478h2uow0",
+                                            "created": 1745319706782,
+                                            "text": "默认参数(缺省参数)"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9d47d28ee80",
+                                            "created": 1745319716768,
+                                            "text": "可变参数"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9d486kdkvs0",
+                                            "created": 1745319780992,
+                                            "text": "关键字参数"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9d48dqeuvk0",
+                                            "created": 1745319796594,
+                                            "text": "命名关键字参数"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9d49azhxps0",
+                                    "created": 1745319868978,
+                                    "text": "匿名参数"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9d49er4rj40",
+                                            "created": 1745319877179,
+                                            "text": "lamada x,y (参数): x -y(函数体）"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d9765c297uo0",
+                    "created": 1744715840344,
+                    "text": "数据容器",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d9c6x0qqwbc0",
+                            "created": 1745225809684,
+                            "text": "定义"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d9c6x70jwrs0",
+                                    "created": 1745225823337,
+                                    "text": "可容纳多个数据的数据类型"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d9c6wfx53ug0",
+                            "created": 1745225764358,
+                            "text": "列表"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d9c6xg0hx680",
+                                    "created": 1745225842925,
+                                    "text": "定义"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9ca5x08kr40",
+                                            "created": 1745234970158,
+                                            "text": "有序，可重复，容纳任意数据类型的数据容器"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9cad1nomsw0",
+                                    "created": 1745235528832,
+                                    "text": "空列表"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9cad7vbz5k0",
+                                            "created": 1745235542355,
+                                            "text": "list = [ ]"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9cadf2b7h40",
+                                            "created": 1745235558014,
+                                            "text": "list = list( )"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9c6xj24is00",
+                                    "created": 1745225849554,
+                                    "text": "常用操作"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9ca6s8ag200",
+                                            "created": 1745235038125,
+                                            "text": "增加"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9ca6ysm0ag0",
+                                                    "created": 1745235052414,
+                                                    "text": "list.append( )"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d9ca73kkixc0",
+                                                    "created": 1745235062812,
+                                                    "text": "list.extend([ 数据容器]）"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9ca7kdazs00",
+                                            "created": 1745235099378,
+                                            "text": "删除"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9ca7nsvde80",
+                                                    "created": 1745235106850,
+                                                    "text": "list.pop(下标索引)"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d9ca7xzypp40",
+                                                    "created": 1745235129046,
+                                                    "text": "del list([下标索引])"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d9caa57fls80",
+                                                    "created": 1745235301464,
+                                                    "text": "list.remove( )"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9ca8adshvk0",
+                                            "created": 1745235156004,
+                                            "text": "修改"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9ca8deo65s0",
+                                                    "created": 1745235162587,
+                                                    "text": "list[下标索引] = 值"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9ca8l0mevc0",
+                                            "created": 1745235179152,
+                                            "text": "查找"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9ca8pmtam80",
+                                                    "created": 1745235189201,
+                                                    "text": "list.index(数据)"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9ca8wjghxk0",
+                                            "created": 1745235204236,
+                                            "text": "排序"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9ca8yikhb40",
+                                                    "created": 1745235208535,
+                                                    "text": "list.sort( )"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9ca95euyfc0",
+                                            "created": 1745235223549,
+                                            "text": "统计"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9ca98f91a00",
+                                                    "created": 1745235230103,
+                                                    "text": "list.count(数据)"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d9caalhd08g0",
+                                                    "created": 1745235336892,
+                                                    "text": "len(list)"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9caau6mpvs0",
+                                            "created": 1745235355835,
+                                            "text": "清空"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9caayek2w00",
+                                                    "created": 1745235365021,
+                                                    "text": "list.clear( )"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9c6y4eow4g0",
+                                    "created": 1745225896026,
+                                    "text": "循环"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9cab9f9zo00",
+                                            "created": 1745235389009,
+                                            "text": "for i in list:"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9cabiq9xug0",
+                                            "created": 1745235409265,
+                                            "text": "while (i < len(list) ）"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d9c6wkls4540",
+                            "created": 1745225774555,
+                            "text": "元组"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d9c6xn6repc0",
+                                    "created": 1745225858541,
+                                    "text": "定义"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9cac1w9y9s0",
+                                            "created": 1745235450987,
+                                            "text": "有序，不可修改，可重复。容纳任意数据类型的数据容器"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9cadudhlg00",
+                                    "created": 1745235591342,
+                                    "text": "空元组"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9cadyisgwo0",
+                                            "created": 1745235600370,
+                                            "text": "tuple = ( )"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9caegy0g480",
+                                            "created": 1745235640472,
+                                            "text": "tuple = tuple( )"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9c6xqd0gjs0",
+                                    "created": 1745225865450,
+                                    "text": "常用操作"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9caenktbuo0",
+                                            "created": 1745235654912,
+                                            "text": "查找"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9caerx582g0",
+                                                    "created": 1745235664364,
+                                                    "text": "tuple.index(数据)"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9caf3s0giw0",
+                                            "created": 1745235690175,
+                                            "text": "统计"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9caf7rpiw00",
+                                                    "created": 1745235698864,
+                                                    "text": "tuple.count(数据)"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d9cafcmmi6w0",
+                                                    "created": 1745235709441,
+                                                    "text": "len(tuple)"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9c6ycirik00",
+                                    "created": 1745225913687,
+                                    "text": "循环"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9cag4s85yg0",
+                                            "created": 1745235770729,
+                                            "text": "for i in tuple:"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9cagb899340",
+                                            "created": 1745235784759,
+                                            "text": "while(i < len(tuple) )"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d9c6wmovcyo0",
+                            "created": 1745225779095,
+                            "text": "字符串"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d9c6y1a0r8g0",
+                                    "created": 1745225889213,
+                                    "text": "常用操作"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9cagmjchls0",
+                                            "created": 1745235809374,
+                                            "text": "查找"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9cagyca2k80",
+                                                    "created": 1745235835068,
+                                                    "text": "str.index(str)"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9cah6obvyo0",
+                                            "created": 1745235853211,
+                                            "text": "统计",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9caha36fh40",
+                                                    "created": 1745235860639,
+                                                    "text": "str.count(str)"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d9cahedjje00",
+                                                    "created": 1745235869973,
+                                                    "text": "len(str)"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9cahhev3ew0",
+                                            "created": 1745235876583,
+                                            "text": "分割"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9cahmnvtgo0",
+                                                    "created": 1745235888013,
+                                                    "text": "str.split(分隔符)"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9cahuqoi200",
+                                            "created": 1745235905596,
+                                            "text": "替换"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9cahxgrm680",
+                                                    "created": 1745235911527,
+                                                    "text": "str.replace(字符串1,字符串2)"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9cai991t280",
+                                            "created": 1745235937182,
+                                            "text": "规整"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9calotmg8w0",
+                                                    "created": 1745236206170,
+                                                    "text": "str.strip(所要删除的字符或者符号)"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9c6yep5erk0",
+                                    "created": 1745225918426,
+                                    "text": "循环"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9candb77qo0",
+                                            "created": 1745236337840,
+                                            "text": "for i in str:"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9cany3lsww0",
+                                            "created": 1745236383093,
+                                            "text": "while(i < len((str))"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d9c6wsg4dmg0",
+                            "created": 1745225791627,
+                            "text": "集合"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d9c6ygrtz3k0",
+                                    "created": 1745225922942,
+                                    "text": "定义"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9c9jhkers00",
+                                            "created": 1745233212537,
+                                            "text": "无序，内容不重复，可以容纳任意数据的数据容器"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9c9on3tm800",
+                                    "created": 1745233616416,
+                                    "text": "空集合"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9c9os1x6g00",
+                                            "created": 1745233627185,
+                                            "text": "set1 = set( )"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9c9qioy9jk0",
+                                    "created": 1745233763538,
+                                    "text": "集合"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9c9qmofku00",
+                                            "created": 1745233772214,
+                                            "text": "{元素1，元素2}"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9c6yj1krn40",
+                                    "created": 1745225927885,
+                                    "text": "常用操作"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9c9p3yb2jk0",
+                                            "created": 1745233653088,
+                                            "text": "增加"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9c9plea1480",
+                                                    "created": 1745233691059,
+                                                    "text": "set.add(元素） 不能将列表等可变数据类型加入到集合中"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d9frovhw59c0",
+                                                    "created": 1745589094529,
+                                                    "text": "set.update(元素) 可以将列表等加入集合中"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9c9pr7d1xk0",
+                                            "created": 1745233703701,
+                                            "text": "删除"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9c9ptmtqgo0",
+                                                    "created": 1745233708990,
+                                                    "text": "set.remove(元素)"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d9c9q0rpo7c0",
+                                                    "created": 1745233724523,
+                                                    "text": "set,pop( )"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9c9rfktw7k0",
+                                            "created": 1745233835122,
+                                            "text": "清空"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9c9riyvjmo0",
+                                                    "created": 1745233842502,
+                                                    "text": "set.clear( )"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9c9rone7ls0",
+                                            "created": 1745233854869,
+                                            "text": "差集"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9c9rt4c5ko0",
+                                                    "created": 1745233864600,
+                                                    "text": "集合1.difference(集合2)"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d9c9sawsfmw0",
+                                                    "created": 1745233903326,
+                                                    "text": "集合1.difference_update（集合2）"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9c9spcp3o00",
+                                            "created": 1745233934763,
+                                            "text": "并集"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9c9su5bjag0",
+                                                    "created": 1745233945200,
+                                                    "text": "集合1.union(集合2)"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9c9u6cpge00",
+                                            "created": 1745234050133,
+                                            "text": "统计"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9c9u8914eo0",
+                                                    "created": 1745234054264,
+                                                    "text": "len(set)"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9c6yj3kink0",
+                                    "created": 1745225928005,
+                                    "text": "循环"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9c9tpjb9ls0",
+                                            "created": 1745234013527,
+                                            "text": "只支持for循环"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d9c6wwqg9ag0",
+                            "created": 1745225800959,
+                            "text": "字典"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d9c6ys0a1v40",
+                                    "created": 1745225947397,
+                                    "text": "定义"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9c9ungfpm80",
+                                            "created": 1745234087363,
+                                            "text": "无序、不重复、key-value键值对的数据容器"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9c9vdfvwio0",
+                                    "created": 1745234143927,
+                                    "text": "空字典"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9c9vfwlgew0",
+                                            "created": 1745234149291,
+                                            "text": "变量名 = { }"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9c9vmi14x40",
+                                            "created": 1745234163647,
+                                            "text": "变量名 = dict( )"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9c6yuqrrio0",
+                                    "created": 1745225953353,
+                                    "text": "常用操作"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9c9v75qwu80",
+                                            "created": 1745234130253,
+                                            "text": "增加",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9c9vxlqcio0",
+                                                    "created": 1745234187816,
+                                                    "text": "字典[key] = 值"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9c9wb11ia80",
+                                            "created": 1745234217040,
+                                            "text": "修改",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9c9ytpms7c0",
+                                                    "created": 1745234414437,
+                                                    "text": "字典[key] = 值"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9c9z0ryisg0",
+                                            "created": 1745234429815,
+                                            "text": "删除"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9c9zsl23wo0",
+                                                    "created": 1745234490348,
+                                                    "text": "dict.pop(key)"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9ca0129wa80",
+                                            "created": 1745234508803,
+                                            "text": "清空"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9ca0e2rzy80",
+                                                    "created": 1745234537132,
+                                                    "text": "dict.clear( )"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9ca0k019400",
+                                            "created": 1745234550026,
+                                            "text": "获取全部的key"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9ca14r0pko0",
+                                                    "created": 1745234595194,
+                                                    "text": "dict.keys( )"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9frpukuojk0",
+                                            "created": 1745589170895,
+                                            "text": "dict.items( ) 以列表返回可遍历的(键, 值) 元组数组"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9ca1iq4mdk0",
+                                            "created": 1745234625615,
+                                            "text": "统计长度"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9ca1wy6r9k0",
+                                                    "created": 1745234656577,
+                                                    "text": "len( )"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9c6yuuwwoo0",
+                                    "created": 1745225953603,
+                                    "text": "循环"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9ca1zwye1s0",
+                                            "created": 1745234663033,
+                                            "text": "for i in dice.keys(dict):"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9ca2k1w8tc0",
+                                    "created": 1745234706867,
+                                    "text": "嵌套"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9ca2oe20600",
+                                            "created": 1745234716310,
+                                            "text": "在value中可以嵌套"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d9c9koq2z400",
+                            "created": 1745233306482,
+                            "text": "序列"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d9c9kxj7c6o0",
+                                    "created": 1745233325657,
+                                    "text": "定义",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9c9luee85s0",
+                                            "created": 1745233397200,
+                                            "text": "内容连续、有序、可以用下标索引的数据容器"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9c9kta8rg80",
+                                    "created": 1745233316408,
+                                    "text": "序列的切片"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9c9mhxxuvk0",
+                                            "created": 1745233448448,
+                                            "text": "[ 起始位置: 终止位置:步长 ]"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d9c9iq2eeyg0",
+                            "created": 1745233152675,
+                            "text": "通用操作"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d9ca415uutc0",
+                                    "created": 1745234822476,
+                                    "text": "len( )"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d9ca45zd23s0",
+                                    "created": 1745234832967,
+                                    "text": "max( )/min( )"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d9ca4bni5gg0",
+                                    "created": 1745234845311,
+                                    "text": "sorted(容器,reverse = True)"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d9ca4u4tgm80",
+                                    "created": 1745234885540,
+                                    "text": "tuple( )"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d9ca50hb8mw0",
+                                    "created": 1745234899356,
+                                    "text": "list( )"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d9ca53tm6xs0",
+                                    "created": 1745234906631,
+                                    "text": "str( )"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d9ca55vq3l40",
+                                    "created": 1745234911112,
+                                    "text": "set( )"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d9c9l4sgwmw0",
+                            "created": 1745233341455,
+                            "text": "字符串的比较"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d9ca5fx4v740",
+                                    "created": 1745234932965,
+                                    "text": "通过依次bijiaoASCII值"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d9765c6ul5s0",
+                    "created": 1744715840622,
+                    "text": "面向对象",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d9fsd3dnezk0",
+                            "created": 1745590992427,
+                            "text": "类"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d9fsd5sj47c0",
+                            "created": 1745590997680,
+                            "text": "对象"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d9fsd7r1g140",
+                            "created": 1745591001944,
+                            "text": "什么是面向对象"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d9fsf1mr4zk0",
+                            "created": 1745591145352,
+                            "text": "魔术方法",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d9fses6d4wg0",
+                                    "created": 1745591124770,
+                                    "text": "构造方法"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9fsgkn484w0",
+                                            "created": 1745591265097,
+                                            "text": "__init__（self,形参)"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9fskhjvpe00",
+                                                    "created": 1745591571828,
+                                                    "text": "创建 类对象的时候会自动执行，且将参数自动传入__init_-中"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9fsf5l1to00",
+                                    "created": 1745591153956,
+                                    "text": "__str__"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9fsgpijf4w0",
+                                            "created": 1745591275704,
+                                            "text": "返回字符串"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9fsfd3tghk0",
+                                    "created": 1745591170328,
+                                    "text": "__lt__"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9fsgtmj86w0",
+                                            "created": 1745591284653,
+                                            "text": "返回 大于 小于的结果"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9fsfdgviuo0",
+                                    "created": 1745591171118,
+                                    "text": "__le__"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9fsgz5p5880",
+                                            "created": 1745591296696,
+                                            "text": "返回大于等于 小于等于的结果"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9fsfdpgf000",
+                                    "created": 1745591171637,
+                                    "text": "__eq__"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9fsiyybzxc0",
+                                            "created": 1745591452979,
+                                            "text": "返回 等于的结果"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d9765c90e2o0",
+                    "created": 1744715840753,
+                    "text": "异常处理",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d9frrk37d9c0",
+                            "created": 1745589304789,
+                            "text": "基本语法",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d9d5a0fqlc00",
+                                    "created": 1745322745489,
+                                    "text": "try:\n\\t 可能出现异常的代码块\nexcept:\n\\t 程序异常时执行的代码\nelse:\n\\t 程序没有异常时执行的代码\nfinally:\n\\t 程序无论是否有异常都执行的代码"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d9frrqxmers0",
+                            "created": 1745589319689,
+                            "text": "异常传递"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d9frruqbil40",
+                                    "created": 1745589327954,
+                                    "text": "异常具有传递性"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9frs54i93s0",
+                                            "created": 1745589350580,
+                                            "text": "异常在一个函数中没有捕获时会传个上一个调用这个函数的函数，依次类推，直到异常被捕获或者程序运行报错。"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9frt87dmaw0",
+                                    "created": 1745589435648,
+                                    "text": "使用场景"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9frtaft4qo0",
+                                            "created": 1745589440512,
+                                            "text": "在main( ）进行捕获异常，防止程序因为异常在中途崩溃"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d9765cfnxy80",
+                    "created": 1744715841155,
+                    "text": "文件读写",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d9d4bsdfwso0",
+                            "created": 1745320063554,
+                            "text": "打开"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d9d4cuk52cg0",
+                                    "created": 1745320146677,
+                                    "text": "open( )"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9d4d7mqcew0",
+                                            "created": 1745320175132,
+                                            "text": "f = open(name,mode,enconding = \"utf-8\")"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9d4e3sb40w0",
+                                                    "created": 1745320245126,
+                                                    "text": "mode三终模式"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d9d4eceie4g0",
+                                                            "created": 1745320263883,
+                                                            "text": "'r'"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "d9d4efqnwf40",
+                                                                    "created": 1745320271148,
+                                                                    "text": "只读，文件存在打开文件;不存在,报错"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d9d4h25ex800",
+                                                            "created": 1745320476658,
+                                                            "text": "'w'"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "d9d4haz2s7k0",
+                                                                    "created": 1745320495865,
+                                                                    "text": "写入，文件存在则打开文件并清空内容，从头开始写入。不存在，则创建文件，从头开始写入。"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d9d4i42aevs0",
+                                                            "created": 1745320559186,
+                                                            "text": "'a'"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "d9d4i66ud7k0",
+                                                                    "created": 1745320563815,
+                                                                    "text": "追加，文件存在则将内容追加到文件内容的末尾，不存在，则创建文件，将内容追加到文件内容的末尾"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9d4cwi4d480",
+                                    "created": 1745320150909,
+                                    "text": "with open( )"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9d4jssu1sw0",
+                                            "created": 1745320691398,
+                                            "text": "with open(name,mode,enconding = 'utf-8' as ff"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9d4kfd7gog0",
+                                                    "created": 1745320740519,
+                                                    "text": "文件在执行完代码后会自动关闭，open( )不会"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d9d4c0adaco0",
+                            "created": 1745320080783,
+                            "text": "读取"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d9d4ld4gytk0",
+                                    "created": 1745320814002,
+                                    "text": "fr = f.read(num）",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9d4lwlopdc0",
+                                            "created": 1745320856402,
+                                            "text": "读取num个字节的内容，并返回内容"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9d4znbdli80",
+                                    "created": 1745321933286,
+                                    "text": "fr = f.readlines( )"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9d501vvtoo0",
+                                            "created": 1745321965000,
+                                            "text": "一次性读取文件中的所有行的内容，并且返回一个列表"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9d50v9bbeo0",
+                                    "created": 1745322028939,
+                                    "text": "fr = f.readline( )"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9d512vv0lc0",
+                                            "created": 1745322045540,
+                                            "text": "读取并返回一行的内容"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d9d544fhu0w0",
+                                    "created": 1745322283996,
+                                    "text": "for 循环读取文件行"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9d54gw31rs0",
+                                            "created": 1745322311121,
+                                            "text": "for line in f:\n\\t print(line)"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d9d4c29sq5c0",
+                            "created": 1745320085102,
+                            "text": "写入"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d9d51s4q21s0",
+                                    "created": 1745322100495,
+                                    "text": "f.write( )"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9d51zc0k4o0",
+                                            "created": 1745322116174,
+                                            "text": "w模式下"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9d58hk27ao0",
+                                                    "created": 1745322626027,
+                                                    "text": "先清空文件的内容，再将文件写入进文件"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d9d58dg7qhc0",
+                                            "created": 1745322617088,
+                                            "text": "a模式下"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9d59ho49eg0",
+                                                    "created": 1745322704637,
+                                                    "text": "将内容追加到文件末尾处"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d9d4c3mgbs00",
+                            "created": 1745320088044,
+                            "text": "关闭"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d9d4c5emb880",
+                                    "created": 1745320091924,
+                                    "text": "f.close( )"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9d4cc4gvm00",
+                                            "created": 1745320106547,
+                                            "text": "关闭并将缓冲区的数据刷新到文件上"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d9765cs76740",
+                    "created": 1744715841913,
+                    "text": "正则表达式",
+                    "expandState": "expand"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d9767ct6eqg0",
+                    "created": 1744715998700,
+                    "text": "常用模块",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d9frw84stnc0",
+                            "created": 1745589670585,
+                            "text": "模块的定义"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d9frykhlpio0",
+                                    "created": 1745589854209,
+                                    "text": "包含可执行代码、函数、方法、类等的python文件"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d9frwcx4f6w0",
+                            "created": 1745589681005,
+                            "text": "包的定义"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d9frzgbfai80",
+                                    "created": 1745589923492,
+                                    "text": "含有__init__.py文件的文件夹，其中包含许多的模块"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d9frw1r971c0",
+                            "created": 1745589656705,
+                            "text": "自定义模块"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d9fs1ub4ygw0",
+                                    "created": 1745590110678,
+                                    "text": "自己写的python文件（模块）,其中包含函数,方法等。"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d9frvnhxocg0",
+                            "created": 1745589625667,
+                            "text": "导入"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d9fs3p59glc0",
+                                    "created": 1745590256167,
+                                    "text": "from 包名 import (模块/* ) as 别名"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9fs6tflh880",
+                                            "created": 1745590500592,
+                                            "text": "当 import 的模块为*时，我们使用__all__(两个下划线)来控制导入的模块"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d9fs7q1smd40",
+                                                    "created": 1745590571591,
+                                                    "text": "__all__ = ['模块名'] 只有__all__里面的才可以被导入使用"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d9fs97wo8s00",
+                            "created": 1745590688828,
+                            "text": "测试"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d9fs99hsfr40",
+                                    "created": 1745590692281,
+                                    "text": "if __name__ = '__main__':"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d9fs9q8o8y00",
+                                            "created": 1745590728735,
+                                            "text": "只有当程序是直接执行的时候才可以进入'__main__',中执行。"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d97p72t605k0",
+                    "created": 1744769578020,
+                    "text": "topic"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "classic",
+    "version": "1.4.43"
+}
