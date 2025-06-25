@@ -1,0 +1,83 @@
+## 转换算子和操作算子
+转换算子是懒执行，只有当操作算子触发时才会执行
+转换算子的数据类型由RDD->RDD,而操作算子的数据类型会由RDD->其他类型
+
+## 转换算子
+***1、map(func)***
+传一行出一行
+map函数将数据一行一行的传入到后面的函数体中进行处理，并将返回的数据构建为RDD
+函数可以很简单也可以很复杂
+
+***2、fliter(func)***
+传多行出少行，过滤函数
+将数据一行一行传入到后面的函数体中，若为False则舍弃,True则保留，并将保留的数据构建为RDD  
+
+***3、flatMap(func)***
+传少行出多行，爆炸函数
+将一行传入到后面的函数体中，函数返回一个列表，并将返回的列表展开并构建为RDD函数
+
+***4、mapPartitions(func)***
+传一个迭代器，出一个迭代器
+一次处理一个分区
+
+***5、mapPartitionswithIndex(func)***
+类似于 mapPartitions，但也为 func 提供了一个整数值，该值表示 分区，即(v,迭代器)->迭代器
+
+***6、reudeceByKey(func,[numPartitions])***
+根据key进行聚合，执行聚合的具体函数为后面的函数体,并将返回的数据构建为RDD
+所需要**传入的数据必须为(k,v)格式**
+因为具有shuffle阶段，所以**可选择**分区数[numPartitions]
+
+***7、groupByKey([numPartitions])***
+根据key进行分组，并将相同key的value整合为一个迭代器,即(k,v迭代器)
+所需要**传入的数据必须为(k,v)格式**
+因为具有shuffle阶段，所以**可选择**分区数[numPartitions]
+
+***8、aggregateByKey(zeroValue,seqOp, combOp, [numPartitions])***
+对相同的key的value值进行计算
+可以自己设置初始值,map端的聚合函数和reduce端的聚合函数
+所需要**传入的数据必须为(k,v)格式**
+因为具有shuffle阶段，所以**可选择**分区数[numPartitions]
+
+***9、sortBy(字段,[ascending]，[numPartitions])***
+相比于sortByKey更灵活,可以自由选择字段来进行排序,默认升序
+所需要**传入的数据必须为(k,v)格式**
+因为具有shuffle阶段，所以**可选择**分区数[numPartitions]
+
+***10、join(RDD)***
+一个RDD join 另一个RDD，默认 inner join
+**RDD1.join(RDD2)**
+此外还有FullJoin,LeftOuterJoin和RightOuterJoin
+
+***11、union***
+一个RDD union 另一个RDD，不去重
+**两个RDD的数据类型必须保持一致**
+**RDD1.union(RDD2)**
+此外,还有 union all
+
+***12、sample(replacement,样本比例)***
+随机抽出约为样本比例的数据,repalcemen为False时为不放回抽取
+
+
+# 操作算子
+
+***1、foreach(func)***
+将传入的数据一行一行传入到后面的函数体中，但是不会将返回后的数据构建为RDD
+
+
+***2、sum()***
+累加计算总和
+
+***3、count()***
+计算总行数
+
+***4、reduce(func)***
+将数据传入到函数中进行全局聚合
+
+5、take
+
+6、collect
+
+7、saveAsTextFile
+
+8、foreachPartitions
