@@ -20,7 +20,8 @@ spark内部逻辑与mapreduce几乎同，都有map shuffle reduce
 
 ## spark运行模式
 **local**:本地测试
-**standalone**
+**standalone**：独立集群
 **mesos**:
 **yarn**:
+在yarn上有两种，一种为client(客户端)，一种为cluster(集群)
 **K8S**
