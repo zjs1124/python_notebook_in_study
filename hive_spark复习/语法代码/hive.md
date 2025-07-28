@@ -1078,18 +1078,101 @@ count:计数
 
 ***跨行取值函数***
 lag(向前取值)
+```sql
+select
+  id,
+  sum(score) as sum_score,
+  lag(sum(score),1,0) over (order by sum(score) desc) as last_score
+from bigdata.scores
+group by id;
+```
+
 lead(向后取值)
+```sql
+select
+  id,
+  sum(score) as sum_score,
+  lead(sum(score),1,0) over (order by sum(score) desc) as lead_score
+from bigdata.scores
+group by id;
+```
+
 first_value(窗口中第一个值)
+```sql
+select
+  id,
+  score,
+  first_value(score) over ( partition by id order by score  desc) as fv_score
+from bigdata.scores;
+```
+
 last_value(窗口中最后一个值)
+```sql
+select
+  id,
+  score,
+  last_value(score) over (partition by id) as lv_score
+from bigdata.scores;
+```
+
+
 
 ***排名函数***
 rank 多行相同排序共享其值且下一个不相同的为该值的+n
-dense_rank 多行相同排序共享其值
-row_number 不会共享相同值,直接向下数
+```sql
+select
+  id,
+  sum(score),
+  rank() over(order by sum(score) desc) as r
+from
+  bigdata.scores
+group by id;
+```
 
+dense_rank 多行相同排序共享其值
+```sql
+select
+  id,
+  sum(score),
+  dense_rank() over(order by sum(score) desc) as r
+from
+  bigdata.scores
+group by id;
+```
+
+
+row_number 不会共享相同值,直接向下数
+```sql
+select
+  id,
+  cid,
+  score,
+  row_number() over(partition by id order by score desc) as r
+from
+  bigdata.scores;
+
+-- 全局排序   -- 求topn
+select
+  id,
+  sum(score) as sum_score,
+  row_number() over(order by sum(score) desc) as r
+from
+  bigdata.scores
+group by id;
+```
 
 ***自定义函数***
 
+UDAF:多行变一行(聚合函数)
+UDTF:一行变多行(爆炸函数)
+通过lateral view和UDTF的配合解决行转列问题
+***lateral view 和UDTF联合使用时，表示将UDTF的结果存储在一张虚拟表中***，因为UDTF本身不能使用group by等函数和关联原有的表中的字段，所以将结果存在虚拟表中。
+
+
+
+UDF:一行变一行(普通一些函数)
+在sql中 array类型类似于python 中的列表类型.
+map类型类似于python 中的字典类型(即key-value键值对类型)。
 
 
 
