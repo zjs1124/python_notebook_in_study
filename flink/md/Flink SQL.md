@@ -714,10 +714,15 @@ kafka-console-producer.sh --broker-list master:9092 --topic bid
 2020-04-15 08:17:00,6.00,F
 
 -- TUMBLE函数会在原表的基础上增加window_start，window_end，window_time
+-- TUMBLE 函数有三个必传参数，一个可选参数：
+-- TUMBLE(TABLE data,DESCRIPTOR(timecol),size[,offset])
+-- data:拥有时间属性的列的表
+-- timecol:列描述符,决定数据的那个时间属性应该映射到窗口
+-- size:窗口的大小
 SELECT * FROM TABLE(
    TUMBLE(TABLE Bid, DESCRIPTOR(bidtime), INTERVAL '10' MINUTES)
 );
-
+-- 
 -- 再分组聚合
 SELECT 
     item,
@@ -745,6 +750,8 @@ group by window_start,window_end;
 
 ```sql
 -- 在原表的基础上增加window_start，window_end，window_time
+-- HOP滑动窗口函数的参数如下
+-- HOP(TABLE data, DESCRIPTOR(timecol), slide, size [, offset ])
 SELECT * FROM TABLE(
    HOP(TABLE Bid, DESCRIPTOR(bidtime),INTERVAL '5' MINUTES, INTERVAL '10' MINUTES)
 );
@@ -765,6 +772,8 @@ group by item,window_start,window_end;
 
 ```sql
 -- 在原表的基础上增加window_start，window_end，window_time
+-- 累计窗口的参数如下
+-- CUMULATE(TABLE data, DESCRIPTOR(timecol), step, size)
 SELECT * FROM TABLE(
    CUMULATE(TABLE Bid, DESCRIPTOR(bidtime),INTERVAL '1' MINUTES, INTERVAL '10' MINUTES)
 );
@@ -781,13 +790,14 @@ group by item,window_start,window_end;
 ```
 
 #### 4、会话窗口
-
+两个数据之间间隔超过一定时间就不计算并关闭
 ```sql
 2020-04-15 08:05:00,4.00,C
 2020-04-15 08:05:10,4.00,C
 2020-04-15 08:05:20,4.00,C
 2020-04-15 08:05:30,4.00,C
 2020-04-15 08:06:31,4.00,C
+-- SESSION(TABLE data [PARTITION BY(keycols, ...)], DESCRIPTOR(timecol), gap)
 select 
     item,
     SESSION_START(bidtime, INTERVAL '1' MINUTES) as window_start,
@@ -801,6 +811,7 @@ group by
 ```
 
 ### 5、over函数
+over函数中的order by 必须按照时间字段进行升序，否则计算代价会越来越大
 
 ```sql
 CREATE TABLE orders (
@@ -841,7 +852,8 @@ select
     order_time,
     amount,
     product,
-    sum(amount) over(partition by product order by product) as sum_amount
+    su
+    m(amount) over(partition by product order by product) as sum_amount
 from 
     orders;
 
@@ -1013,7 +1025,7 @@ select * from fraud
         avg(A.price) as avg_price, -- 取平均值
         B.event_time as max_time,
         B.price as max_price
-      AFTER MATCH SKIP PAST LAST ROW  -- 在当前匹配成功止呕开始下一个匹配，同一条数据不会落到多个匹配中
+      AFTER MATCH SKIP PAST LAST ROW  -- 在当前匹配成功后开始下一个匹配，同一条数据不会落到多个匹配中
       PATTERN (A{2,} B) -- 定义规则,A,B代表的是一条数据的别名
       DEFINE -- 定义规则需要满足的条件
         A as price < 1,
