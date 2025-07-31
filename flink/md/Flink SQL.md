@@ -49,7 +49,7 @@ SET 'sql-client.execution.result-mode' = 'table';
 SET 'sql-client.execution.result-mode' = 'changelog';
 ```
 
-### 2、**Tableau模式**
+### 3、**Tableau模式**
 
 > 显示计算过程,不会打开新的窗口
 
@@ -58,11 +58,12 @@ SET 'sql-client.execution.result-mode' = 'tableau';
 ```
 
 ## 3、流批一体
+同一个代码既可以做流处理，也可以做批处理称为流批一体。
 
 ### 1、流处理
 
-> 1、流处理底层时持续流模型，所有的task动态启动，等待数据到达，来一条数据处理一条数据
-> 2、输出持续结果
+> 1、流处理底层是持续流模型，所有的task同时启动，等待数据到达，来一条数据处理一条数据
+> 2、持续输出结果，包括中间的计算结果
 > 3、可以用于处理有界流和无界流
 
 ```sql
@@ -117,10 +118,18 @@ from students_hdfs
 group by clazz;
 ```
 
-## 4、HINT
+## 4、HINT与动态表
+提示，/*+ 参数*/ sql语句或者代码会读取提示中的参数,并且执行。
 
 ### 1、动态表参数
 
+>扩展(动态表):动态表是一个逻辑概念，是一个执行给定的sql语句，数据不断变化的虚拟表。
+
+>动态表中不存储数据，只存储sql逻辑。
+
+>处理方式:通过sql的create语句将流包装成动态表，在通过select等语句进行查询等，将得到的结果再更新或者追加到动态结果表中，并且回流。
+
+> 在对动态表的连续查询下,结果表的状态或者计算代价可能会越来越高，当到一定的程度时，会停止连续查询。这时就可以通过添加限制来限制计算代价和状态大小来长期运行连续查询。比如添加where等限制条件来限定查询的条数来限制代价的大小。
 ```sql
 # 批处理
 SET 'execution.runtime-mode' = 'batch';
@@ -311,7 +320,7 @@ group by clazz;
 -- 2、无界流的方式读取hdfs
 SET 'execution.runtime-mode' = 'streaming';
 select clazz,count(1) as num
-from students_hdfs /*+options('source.monitor-interval' = '5000')*/
+from students_hdfs /*+options('source.monitor-interval' = '5000')*/ -- 监听目录
 group by clazz;
 ```
 
@@ -1095,7 +1104,7 @@ select * from Ticker
         B.rowtime as b_rowtime,
         C.price as c_price,
         C.rowtime as c_rowtime
-      AFTER MATCH SKIP PAST LAST ROW  -- 在当前匹配成功止呕开始下一个匹配，同一条数据不会落到多个匹配中
+      AFTER MATCH SKIP PAST LAST ROW  -- 在当前匹配成功后开始下一个匹配，同一条数据不会落到多个匹配中
       PATTERN (A B+ C)
       DEFINE
         B as (last(B.price,1) is null and B.price < A.price) or (B.price < last(B.price,1)),
