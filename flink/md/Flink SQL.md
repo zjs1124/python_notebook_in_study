@@ -587,9 +587,11 @@ from students_json;
 ```
 
 ## 6、时间属性
-
+> 共有事件时间、摄取时间、处理时间
+> 为了能够使用时间语义，需要先设置时间字段
+> 当下游算子接收到多个上游的水位线(watermark)输出时,会取最小的值。
 ### 1、事件时间
-
+> 原始数据被采集的时间
 ```sql
 CREATE TABLE cars (
     car STRING,
@@ -629,7 +631,7 @@ CREATE TABLE words_proctime (
     'format' = 'csv',
     'csv.field-delimiter'='|'
 );
-
+-- Flink需要加载hive的函数才可以使用hive的函数
 -- 加载hive的函数
 LOAD MODULE hive WITH ('hive-version' = '3.1.3');
 
@@ -649,7 +651,7 @@ group by
 
 ### 1、with
 
-> 当一段代码逻辑被重复使用时，可以定义到with子句中，减少代码量
+> 当一段代码逻辑被重复使用时,可以定义到with子句中，避免重复的代码，减少代码量。
 
 ```sql
 with tmp as(
@@ -665,6 +667,7 @@ select * from tmp;
 
 ```sql
 -- flink的distinct会将数据保存在状态中，状态可能会越来越大，状态太大会导致内存放不下，也可能会导致checkpoint超时
+-- flink的distinct会将数据保存在状态中，状态可能会越来越大，从而导致内存放不下,导致checkpoint超时。
 select distinct id,name,age,gender,clazz from students_json;
 ```
 
@@ -694,12 +697,13 @@ select * from (
     from students_proctime
 ) as a
 where r =1;
+-- 状态中只会保存一条数据
 ```
 
 ### 4、窗口表值函数
 
 #### 1、滚动窗口
-
+> 一个窗口 一个窗口的算，但是每个窗口的大小相同
 ```sql
 CREATE TABLE Bid (
     bidtime  TIMESTAMP(3),
@@ -756,7 +760,7 @@ group by window_start,window_end;
 ```
 
 #### 2、滑动窗口
-
+> 窗口向后滑动一定距离，但是窗口的总大小不变
 ```sql
 -- 在原表的基础上增加window_start，window_end，window_time
 -- HOP滑动窗口函数的参数如下
@@ -778,7 +782,7 @@ group by item,window_start,window_end;
 ```
 
 #### 3、累积窗口
-
+> 窗口一直向后增加一定的大小，并对窗口的所有的数据进行函数计算
 ```sql
 -- 在原表的基础上增加window_start，window_end，window_time
 -- 累计窗口的参数如下
@@ -799,7 +803,7 @@ group by item,window_start,window_end;
 ```
 
 #### 4、会话窗口
-两个数据之间间隔超过一定时间就不计算并关闭
+两个数据之间的间隔超过一定时间就计算前一个窗口中的数据
 ```sql
 2020-04-15 08:05:00,4.00,C
 2020-04-15 08:05:10,4.00,C
